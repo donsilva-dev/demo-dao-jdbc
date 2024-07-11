@@ -2,6 +2,8 @@ package model.dao;
 
 import java.util.List;
 
+import model.entities.Seller;
+
 public interface SellerDao {
 	/* Interface DAO: Define as operações que podem ser realizadas nos dados, 
 	 * como inserir, atualizar, deletar e buscar. Essa interface é 
@@ -11,6 +13,6 @@ public interface SellerDao {
 	void insert(SellerDao obj);
 	void update(SellerDao obj);
 	void deleteById(Integer id);
-	SellerDao findById(Integer id);
+	Seller findById(Integer id);
 	List<SellerDao>findAll();
 }
