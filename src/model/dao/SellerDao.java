@@ -13,9 +13,9 @@ public interface SellerDao {
 	 * dados.
 	 */
 
-	void insert(SellerDao obj);
+	void insert(Seller obj);
 
-	void update(SellerDao obj);
+	void update(Seller obj);
 
 	void deleteById(Integer id);
 
